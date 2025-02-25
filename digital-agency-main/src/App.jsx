@@ -5,7 +5,6 @@ import "aos/dist/aos.css";
 // Component import
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-
 import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
