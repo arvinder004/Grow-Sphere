@@ -1,15 +1,15 @@
 import React from 'react'
-import { Navbar } from './components/Navbar'
 import Aos from 'aos'
 import { useEffect,useState } from 'react'
 import './index.css'
+import { Banner } from './components/Banner'
 
 
 function App() {
   const [orderPopup , setOrderPopup] = useState(fales)
 
   const handleOrderPopup = () =>{
-    setOrderPopup(!orderPopup)
+    setOrderPopup(!orderPopup);
   }
 
   useEffect(() =>{
@@ -24,7 +24,9 @@ function App() {
 
   return (
     <>
-     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'></div>
+     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
+     <Banner></Banner>
+     </div>
     </>
   )
 }
