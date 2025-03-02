@@ -9,6 +9,9 @@ import Services from "./components/Services/Services";
 import Testimonial from "./components/Testimonial/Testimonial";
 import BlogsComp from "./components/Blogs/BlogsComp.jsx";
 import Footer from "./components/Footer/Footer";
+import About from "./components/About/About.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+
 
 const App = () => {
   useEffect(() => {
@@ -25,10 +28,11 @@ const App = () => {
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <Navbar />
       <Hero />
-      
+      <About />
       <Services />
       <Testimonial />
       <BlogsComp />
+      <Contact />
       <Footer />
     </div>
   );

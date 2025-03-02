@@ -17,8 +17,8 @@ export const MenuLinks = [
   },
   {
     id: 3,
-    name: "Projects",
-    link: "/#projects",
+    name: "Our Customers",
+    link: "/#customers",
   },
 ];
 const Navbar = () => {
@@ -39,9 +39,8 @@ const Navbar = () => {
             target="_blank"
             className="flex items-center gap-3"
           >
-            <img src={logo} alt="" className="w-12" />
             <span className="text-2xl sm:text-3xl font-semibold">
-              Grow Sphere
+              GROW SPHERE
             </span>
           </a>
           {/* Desktop view Navigation */}
@@ -57,7 +56,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <button className="primary-btn">Get in Touch</button>
+              <button className="primary-btn"><a href="/#footer">Get in Touch</a></button>
               <DarkMode />
             </ul>
           </nav>

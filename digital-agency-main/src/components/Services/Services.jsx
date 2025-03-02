@@ -5,7 +5,7 @@ import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "App Development",
+    name: "Social Media Marketing",
     icon: <FaCameraRetro className="text-4xl text-primary" />,
     link: "#",
     description:
@@ -13,7 +13,7 @@ const skillsData = [
     aosDelay: "0",
   },
   {
-    name: "Web Designing",
+    name: "Website and E-commerce",
     icon: <GiNotebook className="text-4xl text-primary" />,
     link: "#",
     description:
@@ -40,7 +40,7 @@ const skillsData = [
 const Services = () => {
   return (
     <>
-      <span id="about"></span>
+      <span id="services"></span>
       <div className="bg-gray-100 dark:bg-black dark:text-white py-12 sm:grid sm:place-items-center">
         <div className="container">
           {/* Header */}
@@ -53,10 +53,9 @@ const Services = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="text-gray-600 dark:text-gray-400 text-sm"
+              className="text-gray-600 dark:text-gray-400 text-md"
             >
-              We are self-service data analytics software that lets you create
-              visually.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, molestias?
             </p>
           </div>
 
@@ -85,7 +84,7 @@ const Services = () => {
             data-aos-offset="0"
             className="text-center mt-4 sm:mt-8"
           >
-            <button className="primary-btn">Learn More</button>
+            <button className="primary-btn"><a href="">Get in Touch</a></button>
           </div>
         </div>
       </div>
